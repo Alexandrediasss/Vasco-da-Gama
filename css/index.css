@@ -73,9 +73,13 @@ main {
 }
 
 main > *{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 main > img {
     width: 40%;
+}
+
+p{
+    text-align: justify;
 }
