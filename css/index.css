@@ -5,6 +5,10 @@
 
 body{
     background-color: #f2f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 header {
@@ -58,4 +62,20 @@ li > a {
 li > a:hover {
     color: rgb(148, 148, 148);
     text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+main > *{
+    margin-top: 50px;
+}
+
+main > img {
+    width: 40%;
 }
