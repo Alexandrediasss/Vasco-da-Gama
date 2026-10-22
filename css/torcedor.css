@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f2f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(42, 45, 42);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.filho-1{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div > text {
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+}
+
+.escudo-img{
+    width: 200px;
+    cursor: pointer;
+}
+
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: end;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+li > a:hover {
+    color: rgb(148, 148, 148);
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+label{
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 5px;
+}
+
+button{
+    margin-top: 25px;
+    padding: 10px;
+    background-color: rgb(42, 45, 42);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(148, 148, 148);
+}
